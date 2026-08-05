@@ -1,0 +1,44 @@
+{
+  "name": "glasses-blocks-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "aistudioFramework": "glasses_blocks",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-simd-compat": "^0.19.3",
+    "@google/genai": "^2.4.0",
+    "@googlemaps/js-api-loader": "^2.0.2",
+    "@mediapipe/tasks-audio": "^0.10.35",
+    "@mediapipe/tasks-vision": "^0.10.35",
+    "@pmndrs/uikit": "^1.0.73",
+    "@preact/signals-core": "^1.14.0",
+    "@sparkjsdev/spark": "^0.1.10",
+    "lit": "^3.3.2",
+    "openai": "^6.7.0",
+    "qrcode": "^1.5.4",
+    "temporal-polyfill": "^0.3.1",
+    "three": "~0.184.0",
+    "troika-three-text": "^0.52.4",
+    "tslib": "^2.8.1",
+    "xrblocks": "^0.15.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "@types/google.maps": "^3.58.1",
+    "@types/node": "^22.14.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/three": "~0.182.0",
+    "@types/webxr": "^0.5.24",
+    "tailwindcss": "^4.3.1",
+    "troika-types": "^0.0.6",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}
